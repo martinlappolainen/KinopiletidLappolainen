@@ -1,0 +1,4 @@
+cinema_id=Maardu Cinema
+seating_rows=15
+seat_per_row=10
+busy_seats=1A,2B
