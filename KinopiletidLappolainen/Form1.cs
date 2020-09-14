@@ -16,10 +16,13 @@ namespace KinopiletidLappolainen
         {
             InitializeComponent();
         }
-
+        Label[,] _arr = new Label[4,4];
+        Label[] read = new Label[4];
+        Button osta;
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-
+            Form form2 = new Form2();
+            form2.Show();
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
@@ -50,6 +53,21 @@ namespace KinopiletidLappolainen
         private void pictureBox4_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+          
+        }
+
+        private void Osta_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void Form1_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }
